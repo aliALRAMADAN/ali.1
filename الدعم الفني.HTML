@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الدعم الفني</title>
+    <style>
+        /* CSS الأسلوب */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        main {
+            padding: 20px;
+            margin: 20px;
+            background: #fff;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 13px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>صفحة الدعم الفني</h1>
+        <nav>
+            <ul>
+                <li><a href="عودة.HTML">الصفحة الرئيسية</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>اتصل بنا</h2>
+            <p>إذا كانت لديك أي استفسارات أو مشاكل تحتاج إلى دعم فني، يرجى ملء النموذج أدناه وسنقوم بالرد عليك في أقرب وقت ممكن.</p>
+            <form>
+                <label for="name">الاسم:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">البريد الإلكتروني:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">الرسالة:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="إرسال">
+            </form>
+        </section>
+
+        <section>
+            <h2>أسئلة شائعة</h2>
+            <p>قائمة بالأسئلة الشائعة والأجوبة عليها.</p>
+        </section>
+    </main>
+    <style>
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            position: absolute;
+            top: 95px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    
+        .back-button:hover {
+            background-color: darkblue;
+        }
+    </style>
+    
+    <a href="javascript:history.go(-1)" class="back-button">الصفحة الرئيسية</a>
+    
+    <footer>
+        <p>حقوق النشر محبكم علي</p>
+
+        <a href="https://www.instagram.com/ali_osama_alramadan/" target="_blank" rel="noopener noreferrer" style="position: fixed; bottom: 10px; right: 10px; text-align: center;">
+            <img src="https://i.pinimg.com/originals/e5/a1/4d/e5a14d2c12e9871b05dfbf8eecc722be.png" alt="ايقونة انستجرام" style="width: 50px; height: 50px; display: block; margin: 0 auto;">
+          </a>
+
+    </footer>
+</body>
+</html>
